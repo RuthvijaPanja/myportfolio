@@ -1,0 +1,206 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:#f4f7fb;
+color:#333;
+scroll-behavior:smooth;
+}
+
+
+/* NAVBAR */
+
+header{
+background:#0f172a;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+}
+
+.logo{
+color:#38bdf8;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+}
+
+.nav-links li{
+margin-left:25px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#38bdf8;
+}
+
+#mode-toggle{
+background:none;
+border:none;
+font-size:18px;
+color:white;
+cursor:pointer;
+}
+
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(135deg,#1e3a8a,#06b6d4);
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero span{
+color:#fde047;
+}
+
+.typing{
+margin:10px 0;
+font-size:22px;
+}
+
+.btn{
+display:inline-block;
+margin:10px;
+padding:12px 25px;
+background:white;
+color:#1e3a8a;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#0f172a;
+color:white;
+}
+
+
+/* ABOUT */
+
+.title{
+text-align:center;
+margin:60px 0 30px;
+font-size:32px;
+}
+
+.about-container{
+width:80%;
+margin:auto;
+display:flex;
+align-items:center;
+gap:40px;
+}
+
+.profile{
+width:250px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.about-text{
+font-size:18px;
+}
+
+
+/* SKILLS */
+
+.skills-container{
+width:70%;
+margin:auto;
+}
+
+.skill{
+margin:20px 0;
+}
+
+.bar{
+background:#ddd;
+height:10px;
+border-radius:20px;
+overflow:hidden;
+}
+
+.progress{
+height:10px;
+background:#06b6d4;
+}
+
+.html{width:90%}
+.css{width:85%}
+.js{width:75%}
+.python{width:80%}
+.sql{width:70%}
+
+
+/* PROJECTS */
+
+.project-container{
+width:80%;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+
+/* CONTACT */
+
+#contact{
+text-align:center;
+padding-bottom:50px;
+}
+
+#contact a{
+color:#1e3a8a;
+text-decoration:none;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:15px;
+}
